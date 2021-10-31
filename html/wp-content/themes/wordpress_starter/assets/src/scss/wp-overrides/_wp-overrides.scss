@@ -1,0 +1,25 @@
+// wp-overrides contains overrides for wordpress specific styles built into the platform
+
+/* Posts and pages
+==============================================*/
+@import 'posts-and-pages';
+
+/* Comments
+==============================================*/
+@import 'comments';
+
+/* Widget
+==============================================*/
+@import 'widgets';
+
+/* Media
+==============================================*/
+@import 'media';
+
+/* Caption
+==============================================*/
+@import 'captions';
+
+/* Galleries
+==============================================*/
+@import 'galleries';

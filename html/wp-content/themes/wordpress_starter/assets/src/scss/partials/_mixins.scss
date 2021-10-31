@@ -1,0 +1,26 @@
+/* Font Size Queries
+==============================================*/
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+    font-size: ($sizeValue * 16) * 1px;
+    font-size: $sizeValue * 1rem;
+}
+
+/* Media Queries
+==============================================*/
+
+//https://engageinteractive.co.uk/blog/top-10-scss-mixins#mediaqueries
+//takes mutiple parameteres
+//1st parameter is width in px from directory: @include tqa-media-query('media-1400'){}
+//2nd parameter is breakpoint type: min or max as a string: @include tqa-media-query('media-1400', 'min'){}
+//  default is set to 'max'
+@mixin tqa-media-query($width, $type: max) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}

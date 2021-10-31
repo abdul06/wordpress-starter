@@ -1,0 +1,50 @@
+{
+  "name": "wordpress-starter",
+  "version": "1.0.0",
+  "description": "Wordpress Starter Theme",
+  "main": "gulpfile.js",
+  "author": "Talib-Uddeen Abdul-Hakeem",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://github.com/abdul06/wordpress-starter/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdul06/wordpress-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdul06/wordpress-starter/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-color": "0.0.2",
+    "gulp-custom-filter": "^0.4.2",
+    "gulp-filter-by": "^1.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-preprocess": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "gulp:js": "gulp js",
+    "gulp:scss": "gulp style",
+    "gulp:block_scss": "gulp blockStyle",
+    "gulp:reload": "gulp --reload --gulpfile ./gulpfile.js",
+    "gulp:watch": "gulp --gulpfile ./gulpfile.js",
+    "gulp:watch:reload": "gulp --reload --gulpfile ./gulpfile.js",
+    "dist": "gulp --gulpfile ./gulpfile.js"
+  }
+}

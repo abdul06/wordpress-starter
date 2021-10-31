@@ -1,0 +1,82 @@
+# WordPress #
+# html/wp-config.local.php
+html/wp-content/uploads/
+html/wp-content/upgrade/
+html/wp-content/backup-db/
+html/wp-content/updraft/
+html/wp-content/backupwordpress-*/
+html/wp-content/manageup/backups/
+html/wp-content/advanced-cache.php
+html/wp-content/wp-cache-config.php
+sitemap.xml
+sitemap.xml.gz
+*.log
+# html/wp-config-local.php
+# html/wp-config-dev.php
+# html/wp-config-prod.php
+html/_wp-config.php
+
+# WordPress developer plugins
+html/wp-content/plugins/debug-bar
+html/wp-content/plugins/developer
+html/wp-content/plugins/show-current-template
+html/wp-content/plugins/theme-check
+# wp-content/plugins/add-columns-to-custom-post-type/
+# @TODO writeable paths
+html/wp-content/cache/
+html/wp-content/backup/
+
+
+# ide
+.idea
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+!wp-includes/**/*.gz
+
+# Logs and databases #
+*.log
+*.sql
+*.git
+
+# OS generated files #
+.DS_Store*
+ehthumbs.db
+# Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+*.un~
+
+# SASS #
+.sass-cache
+
+# Credentials #
+html/database.php
+
+#task runner #
+node_modules
+
+**/node_modules
+
+# data base
+data
+**/data
+
+
+package-lock.json
+
+
+# documentation
+
+documentation/secrets.md

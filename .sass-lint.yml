@@ -1,0 +1,6 @@
+rules:
+  indentation: 0
+  no-css-comments: 0
+  class-name-format: 0
+  hex-length: 0
+  variable-name-format: 0

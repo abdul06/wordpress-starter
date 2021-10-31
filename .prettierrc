@@ -1,0 +1,19 @@
+{
+    "overrides": [
+        {
+            "files": "*.scss",
+            "options": {
+				"tabWidth": 2,
+                "singleQuote": true,
+				"trailingComma": "none"
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+				"tabWidth": 4,
+                "singleQuote": true
+            }
+        }
+    ]
+}

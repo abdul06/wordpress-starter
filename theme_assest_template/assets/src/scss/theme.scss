@@ -1,0 +1,101 @@
+/*!
+Theme Name: [theme_name]
+Theme URI: http://underscores.me/
+Author: talib-udden abdul-hakeem
+Author URI: http://[theme_name].com
+Description: [theme_name] wordpress theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: [theme_name]
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+[theme_name] is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Browser reset
+  - Normalize
+# Partials
+  - Variables
+  - Fonts
+  - Mixins
+# Base
+	- Typography
+	- Html Elements
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# Vendors
+  -
+# Accessibility
+  -
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Browser Reset - clean up browser specific styles
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import 'browser-reset/normalize';
+
+/*--------------------------------------------------------------
+# Partials - styles that are helpers to other files
+--------------------------------------------------------------*/
+
+/* Variables
+--------------------------------------------- */
+@import 'partials/variables';
+
+/* Fonts
+--------------------------------------------- */
+// @import 'partials/fonts'; needs setup to correct font
+
+/* Mixins
+--------------------------------------------- */
+@import 'partials/mixins';
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import 'base/base';
+
+/*--------------------------------------------------------------
+# Wordpress Overrides
+--------------------------------------------------------------*/
+@import 'wp-overrides/wp-overrides';
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import 'components/components';
+
+/*--------------------------------------------------------------
+# Vendors
+--------------------------------------------------------------*/
+
+/* [Vendor Placeholder If you want to include into main theme]
+--------------------------------------------- */
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import 'base/accessibility';

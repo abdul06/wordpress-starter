@@ -1,0 +1,54 @@
+/* Base
+==============================================*/
+
+// body,
+// button,
+// input,
+// select,
+// optgroup,
+// textarea {
+//   font-family: $font-family-inter;
+// }
+
+/* Heading
+==============================================*/
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+// }
+
+/* Copy
+==============================================*/
+
+pre {
+  background: $theme_name_or_color_lighter-grey;
+  font-family: $font-family-courier;
+  line-height: $line-height-pre;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font-family: $font-family-monaco;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted $theme_name_or_color_dark-grey;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: $theme_name_or_color_light-yellow;
+  text-decoration: none;
+}

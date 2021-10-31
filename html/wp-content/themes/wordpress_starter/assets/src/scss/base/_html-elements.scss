@@ -1,0 +1,118 @@
+// Style html element for the whole site
+
+/* Overall
+==============================================*/
+
+/* Inherit box-sizing to more easily change it's value on a component level.
+@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* Body
+==============================================*/
+body {
+  background: $theme_name_or_color_white; // Fallback for when there is no custom background color defined.
+}
+
+/* Hr
+==============================================*/
+
+/* List
+==============================================*/
+
+/* Media
+==============================================*/
+
+/* Make sure embeds and iframes fit their containers. */
+// embed,
+// iframe,
+// object {
+// //   max-width: 100%;
+// }
+
+// img {
+// //   height: auto; // Make sure images are scaled correctly.
+// //   max-width: 100%; // Adhere to container width.
+// }
+
+// figure {
+// //   margin: 1em 0; // Extra wide images within figure tags don't overflow the content area.
+// }
+
+/* Table
+==============================================*/
+
+/* Links
+==============================================*/
+
+// a {
+
+//   &:visited {
+//   }
+
+//   &:hover,
+//   &:focus,
+//   &:active {
+//   }
+
+//   &:focus {
+//   }
+
+//   &:hover,
+//   &:active {
+//   }
+// }
+
+/* Buttons
+==============================================*/
+
+// button,
+// input[type='button'],
+// input[type='reset'],
+// input[type='submit'] {
+
+//   &:hover {
+//   }
+
+//   &:active,
+//   &:focus {
+//   }
+// }
+
+/* Input Fields
+- Usually for forms
+==============================================*/
+
+// input[type='text'],
+// input[type='email'],
+// input[type='url'],
+// input[type='password'],
+// input[type='search'],
+// input[type='number'],
+// input[type='tel'],
+// input[type='range'],
+// input[type='date'],
+// input[type='month'],
+// input[type='week'],
+// input[type='time'],
+// input[type='datetime'],
+// input[type='datetime-local'],
+// input[type='color'],
+// textarea {
+
+//   &:focus {
+//   }
+// }
+
+// select {
+// }
+
+// textarea {
+// }

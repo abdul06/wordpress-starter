@@ -1,0 +1,112 @@
+/* Paths to correct folders
+==============================================*/
+
+$image-path: '/wp-content/themes/[theme_name]/images/';
+$svg-path: '/wp-content/themes/[theme_name]/svg/';
+$font-path: '/wp-content/themes/[theme_name]/fonts/';
+
+/* Color Variables
+==============================================*/
+
+/* How colors are named
+https://www.viget.com/articles/tints-tones-shades/
+lightest, ligth
+Darkest > Darker > Dark > Hue/Color < Light < Lighter < Lightest
+exp: [theme_name]_darkest-[hue/color]
+*/
+
+/* White */
+$theme_name_or_color_white: #fff;
+
+/* Grey */
+$theme_name_or_color_lightest-grey: #f1f1f1;
+$theme_name_or_color_lighter-grey: #eee;
+$theme_name_or_color_light-grey: #e6e6e6;
+$theme_name_or_color_grey: #ccc;
+$theme_name_or_color_dark-grey: #666;
+$theme_name_or_color_darker-grey: #404040;
+
+/* Black */
+$theme_name_or_color_black: #111;
+
+/* Yellow */
+$theme_name_or_color_light-yellow: #fff9c0;
+
+/* Blues */
+$theme_name_or_color_dark-teal: #21759b;
+$theme_name_or_color_royalblue: #4169e1; //royalblue
+$theme_name_or_color_midnightblue: #191970; //midnightblue
+
+/* Purples */
+$theme_name_or_color_purple: #800080; //purple
+
+// @TODO - have variables setup the colors
+$color_border-button: #ccc #ccc #bbb;
+$color_border-button-hover: #ccc #bbb #aaa;
+$color_border-button-focus: #aaa #bbb #bbb;
+
+/* Typography
+==============================================*/
+
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+/* Fonts */
+// stylelint-disable value-keyword-case
+$inter-sans: 'Inter', sans-serif;
+$roboto-sans: 'Roboto', sans-serif;
+$monaco: monaco, consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
+$courier-10-pitch: 'Courier 10 Pitch', courier, monospace;
+
+// stylelint-enable value-keyword-case
+
+/* Line Height */
+$line-height-body: 1.5;
+$line-height-pre: 1.6;
+
+/* Font Family */
+$font-family-inter: $inter-sans;
+$font-family-roboto: $roboto-sans;
+$font-family-monaco: $monaco;
+$font-family-courier: $courier-10-pitch;
+
+/* Font Weight */
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+/* Media Queries breakpoint used with mq mixins
+==============================================*/
+
+/* Resource: make quick breakpoint accross the website
+https://engageinteractive.co.uk/blog/top-10-scss-mixins#mediaqueries
+*/
+
+$breakpoints: (
+  'phone-small': 340px,
+  'phone': 400px,
+  'phone-large': 480px,
+  'media-500': 500px,
+  'media-560': 560px,
+  'tablet-small': 640px,
+  'media-767': 767px,
+  'tablet': 768px,
+  'media-800': 800px,
+  'media-991': 991px,
+  'media-1000': 1000px,
+  'media-1023': 1023px,
+  'tablet-large': 1024px,
+  'media-1100': 1100px,
+  'media-1150': 1150px,
+  'media-1200': 1200px,
+  'desktop': 1248px,
+  'media-1300': 1300px,
+  'media-1400': 1400px,
+  'desktop-large': 1440px
+);

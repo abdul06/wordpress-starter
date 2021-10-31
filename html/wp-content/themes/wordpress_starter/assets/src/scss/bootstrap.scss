@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+// sass-lint:disable-all
+
+/*--------------------------------------------------------------
+# Start
+--------------------------------------------------------------*/
+// @import 'partials/variables';
+
+/*--------------------------------------------------------------
+# bootstrap - pre-overrides
+--------------------------------------------------------------*/
+//  How to override bootstrap color and ither items
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 960px,
+//     xl: 1500px
+// ) !default;
+
+// $primary: $color_blue;
+// $secondary: $text_grey;
+
+/**
+ * bootstrap
+ */
+
+//  https://getbootstrap.com/docs/5.0/getting-started/introduction/
+/*--------------------------------------------------------------
+# bootstrap
+--------------------------------------------------------------*/
+@import 'vendor/bootstrap/bootstrap';
+
+/*--------------------------------------------------------------
+# bootstrap - post-overrides
+--------------------------------------------------------------*/

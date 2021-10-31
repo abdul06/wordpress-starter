@@ -1,0 +1,28 @@
+{
+  "terminal.integrated.inheritEnv": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "gitlens.currentLine.enabled": false,
+  "terminal.explorerKind": "external",
+	"[js]": {
+		"editor.formatOnSave": true,
+    "editor.rulers": [140],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+	},
+	"[scss]": {
+		"editor.formatOnSave": true,
+	},
+	"prettier.requireConfig": true,
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+      140
+    ],
+    "editor.tabSize": 4
+  },
+	"phpfmt.php_bin": "/usr/bin/php",
+	"phpfmt.indent_with_space":4,
+	"intelephense.format.braces": "k&r"
+}

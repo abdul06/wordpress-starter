@@ -1,0 +1,29 @@
+/* font example with fallback */
+//https://onlinefontconverter.com/
+//https:transfonter.org/
+/*
+@font-face {
+    font-family: ITCAvantGardeStd;
+    src: url($font-path + 'folder1/folder2/fontname.otf');
+    src: url($font-path + 'folder1/folder2/fontname.eot#iefix') format('embedded-opentype'),
+        url($font-path + 'folder1/folder2/fontname.woff') format('woff'),
+        url($font-path + 'folder1/folder2/fontname.woff2') format('woff2'),
+        url($font-path + 'folder1/folder2/fontname.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+    font-family: ProximaNova;
+    src: url('proximanova.otf');
+    src: url('proximanova.eot#iefix') format('embedded-opentype'),
+         url('proximanova.woff') format('woff'),
+         url('proximanova.woff2') format('woff2'),
+         url('proximanova.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  */
+
+/*-------------- Fonts Proxima Nova ------------------*/
+
+/* normal */
